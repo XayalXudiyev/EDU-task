@@ -1,17 +1,24 @@
-import { useGetAllUniversitiesQuery } from "../../store/services";
-import { Table } from "antd";
-import { universityColumns } from "../../constants";
-import { useState } from "react";
-import ProductListFilter from "../../components/entitesListFilter/EntitiesListFilter";
+import { Spin, Table } from "antd";
+import { useEffect, useState } from "react";
 import FilterComponent from "../../components/FilterComponent";
 import type { EntityFilter } from "../../components/FilterComponent";
+import ProductListFilter from "../../components/entitesListFilter/EntitiesListFilter";
+import { universityColumns } from "../../constants";
+import { useGetAllUniversitiesQuery } from "../../store/services";
 import type { IUniversity } from "../../types";
 
 const Universities: React.FC = () => {
-	const { data: universities } = useGetAllUniversitiesQuery();
 	const [filters, setFilters] = useState<EntityFilter>(
 		() => ({}) as EntityFilter,
 	);
+
+	const {
+		data: universities,
+		isLoading,
+		error,
+	} = useGetAllUniversitiesQuery(filters);
+	console.log("filters", filters);
+
 
 	const filteredUniversities = universities
 		? FilterComponent(universities, filters)
@@ -47,6 +54,9 @@ const Universities: React.FC = () => {
 				]}
 				clearFilters={() => setFilters(() => ({}) as EntityFilter)}
 			/>
+
+			{isLoading && <div><Spin className="animate-spin"/></div>}
+			{error && <div>Error: {error.message}</div>}
 			<Table
 				size="middle"
 				columns={universityColumns}

@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { useDispatch } from "react-redux";
+import { authApi } from "./services/authService";
 import { highSchoolsApi } from "./services/highSchoolsService";
 import { schoolsApi } from "./services/schoolsService";
 import { universitiesApi } from "./services/universitiesService";
-import { useDispatch } from "react-redux";
-import { authApi } from "./services/authService";
 import AuthReducer from "./slices/authSlice";
 
 export const store = configureStore({

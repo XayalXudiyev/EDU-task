@@ -1,10 +1,10 @@
-import { Suspense, lazy } from "react";
 import { Spin } from "antd";
+import { Suspense, lazy } from "react";
 import { Navigate } from "react-router-dom";
 
 const Universities = lazy(() => import("../views/universites"));
 const Schools = lazy(() => import("../views/schools"));
-const HighSchools = lazy(() => import("../views/highSchools"));  
+const HighSchools = lazy(() => import("../views/highSchools"));
 const Login = lazy(() => import("../views/login"));
 const MainLayout = lazy(() => import("../views/layout"));
 const ErrorPage = lazy(() => import("../views/error/error-page"));

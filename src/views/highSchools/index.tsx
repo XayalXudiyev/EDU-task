@@ -1,10 +1,10 @@
-import { useGetAllHighSchoolsQuery } from "../../store/services";
 import { Table } from "antd";
-import { highSchoolColumns } from "../../constants";
 import { useState } from "react";
-import ProductListFilter from "../../components/entitesListFilter/EntitiesListFilter";
 import FilterComponent from "../../components/FilterComponent";
 import type { EntityFilter } from "../../components/FilterComponent";
+import ProductListFilter from "../../components/entitesListFilter/EntitiesListFilter";
+import { highSchoolColumns } from "../../constants";
+import { useGetAllHighSchoolsQuery } from "../../store/services";
 import type { IHighSchool } from "../../types";
 
 const HighSchools: React.FC = () => {
@@ -44,13 +44,13 @@ const HighSchools: React.FC = () => {
 					"specialization",
 					"accreditation",
 				]}
-				clearFilters={() => setFilters(() => ({}) as EntityFilter)} 
+				clearFilters={() => setFilters(() => ({}) as EntityFilter)}
 			/>
 			<Table
 				size="middle"
 				columns={highSchoolColumns}
 				dataSource={highSchoolDataSource}
-				rowKey="id" 
+				rowKey="id"
 			/>
 		</div>
 	);

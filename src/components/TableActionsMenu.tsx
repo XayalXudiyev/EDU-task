@@ -1,11 +1,11 @@
-import { AiOutlineDelete } from "react-icons/ai";
 import { Button, message } from "antd";
 import { useState } from "react";
+import { AiOutlineDelete } from "react-icons/ai";
 import ConfirmModal from "./ConfirmModal";
 
 interface ITableActionsMenuProps {
 	id: number;
-	deleteMutation: MutationTrigger<(id: number) => Promise<void>>; 
+	deleteMutation: MutationTrigger<(id: number) => Promise<void>>;
 }
 
 const TableActionsMenu: React.FC<ITableActionsMenuProps> = ({
@@ -16,11 +16,11 @@ const TableActionsMenu: React.FC<ITableActionsMenuProps> = ({
 
 	const handleDelete = async () => {
 		try {
-		  await deleteMutation(id);
-		  message.success("Delete successfully");
-		  setIsModalOpen(false);
+			await deleteMutation(id);
+			message.success("Delete successfully");
+			setIsModalOpen(false);
 		} catch (error) {
-		  message.error("Delete failed");
+			message.error("Delete failed");
 		}
 	};
 
@@ -34,10 +34,7 @@ const TableActionsMenu: React.FC<ITableActionsMenuProps> = ({
 
 	return (
 		<>
-			<Button
-				onClick={showModal}
-				style={{ color: "red", cursor: "pointer" }}
-			>
+			<Button onClick={showModal} style={{ color: "red", cursor: "pointer" }}>
 				<AiOutlineDelete />
 			</Button>
 

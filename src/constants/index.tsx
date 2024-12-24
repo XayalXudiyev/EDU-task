@@ -1,15 +1,15 @@
+import CorpusesModal from "../components/CorpusesModal";
 import TableActionsMenu from "../components/TableActionsMenu";
-import type {
-	IHighSchoolTableColumnsProps,
-	ISchoolTableColumnsProps,
-	IUniversityTableColumnsProps,
-} from "../types";
 import {
 	useDeleteHighSchoolMutation,
 	useDeleteSchoolMutation,
 	useDeleteUniversityMutation,
 } from "../store/services";
-import CorpusesModal from "../components/CorpusesModal";
+import type {
+	IHighSchoolTableColumnsProps,
+	ISchoolTableColumnsProps,
+	IUniversityTableColumnsProps,
+} from "../types";
 
 const UniversityActionMenu: React.FC<{ id: number }> = ({ id }) => {
 	const [deleteUniversity] = useDeleteUniversityMutation({});

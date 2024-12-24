@@ -1,745 +1,660 @@
 {
-  "users": [
-    {
-      "id": "1",
-      "email": "xayal.xuduyev@gmail.com",
-      "password": "debug",
-      "name": "Xayal Xudiyev"
-    }
-  ],
-  "universities": [
-    {
-      "id": "1",
-      "name": "Harvard University",
-      "establishmentYear": 1636,
-      "region": "Cambridge, USA",
-      "corpus": [
-        "Harvard College",
-        "Harvard Business School",
-        "Harvard Law School"
-      ],
-      "facultyCount": 12,
-      "campusSize": "209 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "2",
-      "name": "University of Oxford",
-      "establishmentYear": 1096,
-      "region": "Oxford, UK",
-      "corpus": [
-        "Balliol College",
-        "Magdalen College",
-        "Trinity College"
-      ],
-      "facultyCount": 23,
-      "campusSize": "80 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "3",
-      "name": "Stanford University",
-      "establishmentYear": 1885,
-      "region": "Stanford, USA",
-      "corpus": [
-        "Stanford School of Engineering",
-        "Stanford School of Business"
-      ],
-      "facultyCount": 8,
-      "campusSize": "8180 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "4",
-      "name": "University of Tokyo",
-      "establishmentYear": 1877,
-      "region": "Tokyo, Japan",
-      "corpus": [
-        "Faculty of Law",
-        "Faculty of Economics",
-        "Faculty of Science"
-      ],
-      "facultyCount": 10,
-      "campusSize": "1,000 ha",
-      "scholarshipsAvailable": false,
-      "onlinePrograms": true
-    },
-    {
-      "id": "5",
-      "name": "University of Melbourne",
-      "establishmentYear": 1853,
-      "region": "Melbourne, Australia",
-      "corpus": [
-        "Faculty of Arts",
-        "Faculty of Science",
-        "Faculty of Medicine"
-      ],
-      "facultyCount": 10,
-      "campusSize": "50 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "6",
-      "name": "ETH Zurich",
-      "establishmentYear": 1855,
-      "region": "Zurich, Switzerland",
-      "corpus": [
-        "Faculty of Engineering",
-        "Faculty of Mathematics",
-        "Faculty of Architecture"
-      ],
-      "facultyCount": 6,
-      "campusSize": "20 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "7",
-      "name": "California Institute of Technology",
-      "establishmentYear": 1891,
-      "region": "Pasadena, USA",
-      "corpus": [
-        "Division of Engineering and Applied Science",
-        "Division of Physics, Mathematics, and Astronomy"
-      ],
-      "facultyCount": 5,
-      "campusSize": "124 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": false
-    },
-    {
-      "id": "8",
-      "name": "Imperial College London",
-      "establishmentYear": 1907,
-      "region": "London, UK",
-      "corpus": [
-        "Faculty of Engineering",
-        "Faculty of Natural Sciences"
-      ],
-      "facultyCount": 8,
-      "campusSize": "100 ha",
-      "scholarshipsAvailable": false,
-      "onlinePrograms": true
-    },
-    {
-      "id": "10",
-      "name": "Princeton University",
-      "establishmentYear": 1746,
-      "region": "Princeton, USA",
-      "corpus": [
-        "School of Engineering and Applied Science",
-        "Woodrow Wilson School of Public and International Affairs"
-      ],
-      "facultyCount": 6,
-      "campusSize": "200 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "11",
-      "name": "Massachusetts Institute of Technology (MIT)",
-      "establishmentYear": 1861,
-      "region": "Cambridge, USA",
-      "corpus": [
-        "School of Engineering",
-        "School of Architecture and Planning"
-      ],
-      "facultyCount": 10,
-      "campusSize": "168 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "12",
-      "name": "University of Cambridge",
-      "establishmentYear": 1209,
-      "region": "Cambridge, UK",
-      "corpus": [
-        "Trinity College",
-        "King's College",
-        "Queens' College"
-      ],
-      "facultyCount": 30,
-      "campusSize": "100 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "13",
-      "name": "Yale University",
-      "establishmentYear": 1701,
-      "region": "New Haven, USA",
-      "corpus": [
-        "Yale College",
-        "Yale School of Engineering & Applied Science"
-      ],
-      "facultyCount": 10,
-      "campusSize": "345 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "14",
-      "name": "Columbia University",
-      "establishmentYear": 1754,
-      "region": "New York City, USA",
-      "corpus": [
-        "Columbia College",
-        "School of Engineering and Applied Science"
-      ],
-      "facultyCount": 12,
-      "campusSize": "32 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "15",
-      "name": "University of Chicago",
-      "establishmentYear": 1890,
-      "region": "Chicago, USA",
-      "corpus": [
-        "College of the University of Chicago",
-        "Booth School of Business"
-      ],
-      "facultyCount": 8,
-      "campusSize": "217 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "16",
-      "name": "University of Toronto",
-      "establishmentYear": 1827,
-      "region": "Toronto, Canada",
-      "corpus": [
-        "Faculty of Arts and Science",
-        "School of Engineering"
-      ],
-      "facultyCount": 15,
-      "campusSize": "171 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "17",
-      "name": "University of Melbourne",
-      "establishmentYear": 1853,
-      "region": "Melbourne, Australia",
-      "corpus": [
-        "Faculty of Arts",
-        "Faculty of Science",
-        "Faculty of Medicine"
-      ],
-      "facultyCount": 10,
-      "campusSize": "50 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "18",
-      "name": "University of Sydney",
-      "establishmentYear": 1850,
-      "region": "Sydney, Australia",
-      "corpus": [
-        "Faculty of Arts and Social Sciences",
-        "Faculty of Engineering"
-      ],
-      "facultyCount": 12,
-      "campusSize": "72 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    },
-    {
-      "id": "19",
-      "name": "Tsinghua University",
-      "establishmentYear": 1911,
-      "region": "Beijing, China",
-      "corpus": [
-        "School of Engineering",
-        "School of Economics and Management"
-      ],
-      "facultyCount": 9,
-      "campusSize": "400 ha",
-      "scholarshipsAvailable": true,
-      "onlinePrograms": true
-    }
-  ],
-  "schools": [
-    {
-      "id": "1",
-      "name": "The Lycée Louis-le-Grand",
-      "establishmentYear": 1563,
-      "region": "Paris, France",
-      "studentCount": 800,
-      "classrooms": 35,
-      "programsOffered": [
-        "Philosophy",
-        "Mathematics",
-        "History"
-      ],
-      "accreditation": "National"
-    },
-    {
-      "id": "2",
-      "name": "The Lawrenceville School",
-      "establishmentYear": 1810,
-      "region": "Lawrenceville, USA",
-      "studentCount": 900,
-      "classrooms": 40,
-      "programsOffered": [
-        "Science",
-        "Humanities",
-        "Arts"
-      ],
-      "accreditation": "National"
-    },
-    {
-      "id": "3",
-      "name": "United World College of South East Asia",
-      "establishmentYear": 1971,
-      "region": "Singapore",
-      "studentCount": 2000,
-      "classrooms": 60,
-      "programsOffered": [
-        "Global Studies",
-        "STEM",
-        "Languages"
-      ],
-      "accreditation": "International"
-    },
-    {
-      "id": "4",
-      "name": "Eton College",
-      "establishmentYear": 1440,
-      "region": "Windsor, UK",
-      "studentCount": 1300,
-      "classrooms": 50,
-      "programsOffered": [
-        "Literature",
-        "History",
-        "Mathematics"
-      ],
-      "accreditation": "International"
-    },
-    {
-      "id": "5",
-      "name": "Raffles Institution",
-      "establishmentYear": 1823,
-      "region": "Singapore",
-      "studentCount": 1500,
-      "classrooms": 60,
-      "programsOffered": [
-        "Mathematics",
-        "Science",
-        "Humanities"
-      ],
-      "accreditation": "National"
-    },
-    {
-      "id": "5",
-      "name": "Tokyo Metropolitan High School",
-      "establishmentYear": 1927,
-      "region": "Tokyo, Japan",
-      "studentCount": 800,
-      "classrooms": 30,
-      "programsOffered": [
-        "Science",
-        "Literature",
-        "Economics"
-      ],
-      "accreditation": "National"
-    },
-    {
-      "id": "6",
-      "name": "The British International School",
-      "establishmentYear": 1978,
-      "region": "London, UK",
-      "studentCount": 700,
-      "classrooms": 28,
-      "programsOffered": [
-        "Mathematics",
-        "History",
-        "Computer Science"
-      ],
-      "accreditation": "International"
-    },
-    {
-      "id": "7",
-      "name": "Ecole Internationale de Genève",
-      "establishmentYear": 1924,
-      "region": "Geneva, Switzerland",
-      "studentCount": 600,
-      "classrooms": 25,
-      "programsOffered": [
-        "French Language",
-        "Science",
-        "Social Studies"
-      ],
-      "accreditation": "International"
-    },
-    {
-      "id": "8",
-      "name": "Lycée Louis-le-Grand",
-      "establishmentYear": 1563,
-      "region": "Paris, France",
-      "studentCount": 1000,
-      "classrooms": 40,
-      "programsOffered": [
-        "Mathematics",
-        "Philosophy",
-        "Physics"
-      ],
-      "accreditation": "National"
-    },
-    {
-      "id": "9",
-      "name": "High School of Shanghai",
-      "establishmentYear": 1865,
-      "region": "Shanghai, China",
-      "studentCount": 1200,
-      "classrooms": 45,
-      "programsOffered": [
-        "Chemistry",
-        "Literature",
-        "Technology"
-      ],
-      "accreditation": "National"
-    },
-    {
-      "id": "10",
-      "name": "Sydney Boys High School",
-      "establishmentYear": 1883,
-      "region": "Sydney, Australia",
-      "studentCount": 900,
-      "classrooms": 35,
-      "programsOffered": [
-        "Physics",
-        "Economics",
-        "Computer Science"
-      ],
-      "accreditation": "National"
-    },
-    {
-      "id": "11",
-      "name": "Beverley Hills High School",
-      "establishmentYear": 1962,
-      "region": "Los Angeles, USA",
-      "studentCount": 1000,
-      "classrooms": 50,
-      "programsOffered": [
-        "Mathematics",
-        "History",
-        "Business Studies"
-      ],
-      "accreditation": "National"
-    },
-    {
-      "id": "12",
-      "name": "Lyceum of the Philippines University",
-      "establishmentYear": 1952,
-      "region": "Manila, Philippines",
-      "studentCount": 1100,
-      "classrooms": 38,
-      "programsOffered": [
-        "Business",
-        "Engineering",
-        "Tourism"
-      ],
-      "accreditation": "National"
-    },
-    {
-      "id": "13",
-      "name": "Canadian International School",
-      "establishmentYear": 1986,
-      "region": "Toronto, Canada",
-      "studentCount": 850,
-      "classrooms": 30,
-      "programsOffered": [
-        "Music",
-        "Art",
-        "Science"
-      ],
-      "accreditation": "International"
-    },
-    {
-      "id": "14",
-      "name": "International School of Geneva",
-      "establishmentYear": 1924,
-      "region": "Geneva, Switzerland",
-      "studentCount": 950,
-      "classrooms": 36,
-      "programsOffered": [
-        "Global Studies",
-        "Foreign Languages",
-        "Business Management"
-      ],
-      "accreditation": "International"
-    },
-    {
-      "id": "15",
-      "name": "International School of Brussels",
-      "establishmentYear": 1963,
-      "region": "Brussels, Belgium",
-      "studentCount": 700,
-      "classrooms": 28,
-      "programsOffered": [
-        "Languages",
-        "Economics",
-        "Geography"
-      ],
-      "accreditation": "International"
-    },
-    {
-      "id": "16",
-      "name": "St. Petersburg Academic Gymnasium",
-      "establishmentYear": 1805,
-      "region": "St. Petersburg, Russia",
-      "studentCount": 950,
-      "classrooms": 32,
-      "programsOffered": [
-        "Russian Literature",
-        "Physics",
-        "Mathematics"
-      ],
-      "accreditation": "National"
-    },
-    {
-      "id": "17",
-      "name": "The American School of Dubai",
-      "establishmentYear": 1966,
-      "region": "Dubai, UAE",
-      "studentCount": 1200,
-      "classrooms": 50,
-      "programsOffered": [
-        "English Literature",
-        "Business Studies",
-        "Chemistry"
-      ],
-      "accreditation": "International"
-    },
-    {
-      "id": "18",
-      "name": "The International School of Kuala Lumpur",
-      "establishmentYear": 1965,
-      "region": "Kuala Lumpur, Malaysia",
-      "studentCount": 1100,
-      "classrooms": 40,
-      "programsOffered": [
-        "Science",
-        "Technology",
-        "Social Studies"
-      ],
-      "accreditation": "International"
-    },
-    {
-      "id": "20",
-      "name": "Munich International School",
-      "establishmentYear": 1966,
-      "region": "Munich, Germany",
-      "studentCount": 950,
-      "classrooms": 35,
-      "programsOffered": [
-        "German Language",
-        "Mathematics",
-        "Environmental Science"
-      ],
-      "accreditation": "International"
-    }
-  ],
-  "high-schools": [
-    {
-      "id": "1",
-      "name": "Harvard-Westlake School",
-      "establishmentYear": 1900,
-      "region": "Los Angeles, USA",
-      "studentCount": 1200,
-      "classrooms": 45,
-      "specialization": "STEM, Arts",
-      "accreditation": "National"
-    },
-    {
-      "id": "2",
-      "name": "The Lawrenceville School",
-      "establishmentYear": 1810,
-      "region": "Lawrenceville, USA",
-      "studentCount": 900,
-      "classrooms": 40,
-      "specialization": "Science, Humanities",
-      "accreditation": "National"
-    },
-    {
-      "id": "3",
-      "name": "Eton College",
-      "establishmentYear": 1440,
-      "region": "Windsor, UK",
-      "studentCount": 1300,
-      "classrooms": 50,
-      "specialization": "Literature, History",
-      "accreditation": "International"
-    },
-    {
-      "id": "4",
-      "name": "The Hotchkiss School",
-      "establishmentYear": 1891,
-      "region": "Lakeville, USA",
-      "studentCount": 800,
-      "classrooms": 35,
-      "specialization": "STEM, Performing Arts",
-      "accreditation": "National"
-    },
-    {
-      "id": "5",
-      "name": "Phillips Exeter Academy",
-      "establishmentYear": 1781,
-      "region": "Exeter, USA",
-      "studentCount": 1100,
-      "classrooms": 42,
-      "specialization": "Humanities, Sciences",
-      "accreditation": "National"
-    },
-    {
-      "id": "6",
-      "name": "United World College of South East Asia",
-      "establishmentYear": 1971,
-      "region": "Singapore",
-      "studentCount": 2000,
-      "classrooms": 60,
-      "specialization": "Global Studies, Arts",
-      "accreditation": "International"
-    },
-    {
-      "id": "7",
-      "name": "The American School in London",
-      "establishmentYear": 1951,
-      "region": "London, UK",
-      "studentCount": 1000,
-      "classrooms": 50,
-      "specialization": "English Literature, Business",
-      "accreditation": "International"
-    },
-    {
-      "id": "8",
-      "name": "The British School in Tokyo",
-      "establishmentYear": 1989,
-      "region": "Tokyo, Japan",
-      "studentCount": 1200,
-      "classrooms": 55,
-      "specialization": "Technology, Humanities",
-      "accreditation": "International"
-    },
-    {
-      "id": "9",
-      "name": "St. Paul's School",
-      "establishmentYear": 1856,
-      "region": "Concord, USA",
-      "studentCount": 950,
-      "classrooms": 40,
-      "specialization": "STEM, Humanities",
-      "accreditation": "National"
-    },
-    {
-      "id": "10",
-      "name": "Lycée Louis-le-Grand",
-      "establishmentYear": 1563,
-      "region": "Paris, France",
-      "studentCount": 800,
-      "classrooms": 35,
-      "specialization": "Philosophy, Mathematics",
-      "accreditation": "National"
-    },
-    {
-      "id": "11",
-      "name": "Singapore American School",
-      "establishmentYear": 1956,
-      "region": "Singapore",
-      "studentCount": 3500,
-      "classrooms": 100,
-      "specialization": "STEM, Global Studies",
-      "accreditation": "International"
-    },
-    {
-      "id": "12",
-      "name": "The International School of Beijing",
-      "establishmentYear": 1964,
-      "region": "Beijing, China",
-      "studentCount": 1100,
-      "classrooms": 45,
-      "specialization": "Language Arts, Science",
-      "accreditation": "International"
-    },
-    {
-      "id": "13",
-      "name": "King's College School",
-      "establishmentYear": 1829,
-      "region": "London, UK",
-      "studentCount": 1200,
-      "classrooms": 50,
-      "specialization": "Mathematics, Arts",
-      "accreditation": "International"
-    },
-    {
-      "id": "14",
-      "name": "The Spence School",
-      "establishmentYear": 1892,
-      "region": "New York, USA",
-      "studentCount": 750,
-      "classrooms": 30,
-      "specialization": "Humanities, Science",
-      "accreditation": "National"
-    },
-    {
-      "id": "15",
-      "name": "The American School of Paris",
-      "establishmentYear": 1946,
-      "region": "Paris, France",
-      "studentCount": 900,
-      "classrooms": 40,
-      "specialization": "Languages, International Relations",
-      "accreditation": "International"
-    },
-    {
-      "id": "16",
-      "name": "International School of Geneva",
-      "establishmentYear": 1924,
-      "region": "Geneva, Switzerland",
-      "studentCount": 950,
-      "classrooms": 45,
-      "specialization": "Social Sciences, Languages",
-      "accreditation": "International"
-    },
-    {
-      "id": "17",
-      "name": "Raffles Institution",
-      "establishmentYear": 1823,
-      "region": "Singapore",
-      "studentCount": 1500,
-      "classrooms": 60,
-      "specialization": "Mathematics, Science",
-      "accreditation": "National"
-    },
-    {
-      "id": "18",
-      "name": "International School of Hong Kong",
-      "establishmentYear": 1967,
-      "region": "Hong Kong",
-      "studentCount": 1000,
-      "classrooms": 40,
-      "specialization": "Science, Arts",
-      "accreditation": "International"
-    },
-    {
-      "id": "19",
-      "name": "German International School of New York",
-      "establishmentYear": 1960,
-      "region": "New York, USA",
-      "studentCount": 800,
-      "classrooms": 35,
-      "specialization": "Language Studies, History",
-      "accreditation": "International"
-    }
-  ]
+	"users": [
+		{
+			"id": "1",
+			"email": "xayal.xuduyev@gmail.com",
+			"password": "debug",
+			"name": "Xayal Xudiyev"
+		}
+	],
+	"universities": [
+		{
+			"id": "1",
+			"name": "Harvard University",
+			"establishmentYear": 1636,
+			"region": "Cambridge, USA",
+			"corpus": [
+				"Harvard College",
+				"Harvard Business School",
+				"Harvard Law School"
+			],
+			"facultyCount": 12,
+			"campusSize": "209 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "2",
+			"name": "University of Oxford",
+			"establishmentYear": 1096,
+			"region": "Oxford, UK",
+			"corpus": ["Balliol College", "Magdalen College", "Trinity College"],
+			"facultyCount": 23,
+			"campusSize": "80 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "3",
+			"name": "Stanford University",
+			"establishmentYear": 1885,
+			"region": "Stanford, USA",
+			"corpus": [
+				"Stanford School of Engineering",
+				"Stanford School of Business"
+			],
+			"facultyCount": 8,
+			"campusSize": "8180 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "4",
+			"name": "University of Tokyo",
+			"establishmentYear": 1877,
+			"region": "Tokyo, Japan",
+			"corpus": [
+				"Faculty of Law",
+				"Faculty of Economics",
+				"Faculty of Science"
+			],
+			"facultyCount": 10,
+			"campusSize": "1,000 ha",
+			"scholarshipsAvailable": false,
+			"onlinePrograms": true
+		},
+		{
+			"id": "5",
+			"name": "University of Melbourne",
+			"establishmentYear": 1853,
+			"region": "Melbourne, Australia",
+			"corpus": [
+				"Faculty of Arts",
+				"Faculty of Science",
+				"Faculty of Medicine"
+			],
+			"facultyCount": 10,
+			"campusSize": "50 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "6",
+			"name": "ETH Zurich",
+			"establishmentYear": 1855,
+			"region": "Zurich, Switzerland",
+			"corpus": [
+				"Faculty of Engineering",
+				"Faculty of Mathematics",
+				"Faculty of Architecture"
+			],
+			"facultyCount": 6,
+			"campusSize": "20 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "7",
+			"name": "California Institute of Technology",
+			"establishmentYear": 1891,
+			"region": "Pasadena, USA",
+			"corpus": [
+				"Division of Engineering and Applied Science",
+				"Division of Physics, Mathematics, and Astronomy"
+			],
+			"facultyCount": 5,
+			"campusSize": "124 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": false
+		},
+		{
+			"id": "8",
+			"name": "Imperial College London",
+			"establishmentYear": 1907,
+			"region": "London, UK",
+			"corpus": ["Faculty of Engineering", "Faculty of Natural Sciences"],
+			"facultyCount": 8,
+			"campusSize": "100 ha",
+			"scholarshipsAvailable": false,
+			"onlinePrograms": true
+		},
+		{
+			"id": "10",
+			"name": "Princeton University",
+			"establishmentYear": 1746,
+			"region": "Princeton, USA",
+			"corpus": [
+				"School of Engineering and Applied Science",
+				"Woodrow Wilson School of Public and International Affairs"
+			],
+			"facultyCount": 6,
+			"campusSize": "200 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "11",
+			"name": "Massachusetts Institute of Technology (MIT)",
+			"establishmentYear": 1861,
+			"region": "Cambridge, USA",
+			"corpus": [
+				"School of Engineering",
+				"School of Architecture and Planning"
+			],
+			"facultyCount": 10,
+			"campusSize": "168 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "12",
+			"name": "University of Cambridge",
+			"establishmentYear": 1209,
+			"region": "Cambridge, UK",
+			"corpus": ["Trinity College", "King's College", "Queens' College"],
+			"facultyCount": 30,
+			"campusSize": "100 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "13",
+			"name": "Yale University",
+			"establishmentYear": 1701,
+			"region": "New Haven, USA",
+			"corpus": [
+				"Yale College",
+				"Yale School of Engineering & Applied Science"
+			],
+			"facultyCount": 10,
+			"campusSize": "345 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "14",
+			"name": "Columbia University",
+			"establishmentYear": 1754,
+			"region": "New York City, USA",
+			"corpus": [
+				"Columbia College",
+				"School of Engineering and Applied Science"
+			],
+			"facultyCount": 12,
+			"campusSize": "32 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "15",
+			"name": "University of Chicago",
+			"establishmentYear": 1890,
+			"region": "Chicago, USA",
+			"corpus": [
+				"College of the University of Chicago",
+				"Booth School of Business"
+			],
+			"facultyCount": 8,
+			"campusSize": "217 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "16",
+			"name": "University of Toronto",
+			"establishmentYear": 1827,
+			"region": "Toronto, Canada",
+			"corpus": ["Faculty of Arts and Science", "School of Engineering"],
+			"facultyCount": 15,
+			"campusSize": "171 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "17",
+			"name": "University of Melbourne",
+			"establishmentYear": 1853,
+			"region": "Melbourne, Australia",
+			"corpus": [
+				"Faculty of Arts",
+				"Faculty of Science",
+				"Faculty of Medicine"
+			],
+			"facultyCount": 10,
+			"campusSize": "50 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "18",
+			"name": "University of Sydney",
+			"establishmentYear": 1850,
+			"region": "Sydney, Australia",
+			"corpus": [
+				"Faculty of Arts and Social Sciences",
+				"Faculty of Engineering"
+			],
+			"facultyCount": 12,
+			"campusSize": "72 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		},
+		{
+			"id": "19",
+			"name": "Tsinghua University",
+			"establishmentYear": 1911,
+			"region": "Beijing, China",
+			"corpus": ["School of Engineering", "School of Economics and Management"],
+			"facultyCount": 9,
+			"campusSize": "400 ha",
+			"scholarshipsAvailable": true,
+			"onlinePrograms": true
+		}
+	],
+	"schools": [
+		{
+			"id": "1",
+			"name": "The Lycée Louis-le-Grand",
+			"establishmentYear": 1563,
+			"region": "Paris, France",
+			"studentCount": 800,
+			"classrooms": 35,
+			"programsOffered": ["Philosophy", "Mathematics", "History"],
+			"accreditation": "National"
+		},
+		{
+			"id": "2",
+			"name": "The Lawrenceville School",
+			"establishmentYear": 1810,
+			"region": "Lawrenceville, USA",
+			"studentCount": 900,
+			"classrooms": 40,
+			"programsOffered": ["Science", "Humanities", "Arts"],
+			"accreditation": "National"
+		},
+		{
+			"id": "3",
+			"name": "United World College of South East Asia",
+			"establishmentYear": 1971,
+			"region": "Singapore",
+			"studentCount": 2000,
+			"classrooms": 60,
+			"programsOffered": ["Global Studies", "STEM", "Languages"],
+			"accreditation": "International"
+		},
+		{
+			"id": "4",
+			"name": "Eton College",
+			"establishmentYear": 1440,
+			"region": "Windsor, UK",
+			"studentCount": 1300,
+			"classrooms": 50,
+			"programsOffered": ["Literature", "History", "Mathematics"],
+			"accreditation": "International"
+		},
+		{
+			"id": "5",
+			"name": "Raffles Institution",
+			"establishmentYear": 1823,
+			"region": "Singapore",
+			"studentCount": 1500,
+			"classrooms": 60,
+			"programsOffered": ["Mathematics", "Science", "Humanities"],
+			"accreditation": "National"
+		},
+		{
+			"id": "5",
+			"name": "Tokyo Metropolitan High School",
+			"establishmentYear": 1927,
+			"region": "Tokyo, Japan",
+			"studentCount": 800,
+			"classrooms": 30,
+			"programsOffered": ["Science", "Literature", "Economics"],
+			"accreditation": "National"
+		},
+		{
+			"id": "6",
+			"name": "The British International School",
+			"establishmentYear": 1978,
+			"region": "London, UK",
+			"studentCount": 700,
+			"classrooms": 28,
+			"programsOffered": ["Mathematics", "History", "Computer Science"],
+			"accreditation": "International"
+		},
+		{
+			"id": "7",
+			"name": "Ecole Internationale de Genève",
+			"establishmentYear": 1924,
+			"region": "Geneva, Switzerland",
+			"studentCount": 600,
+			"classrooms": 25,
+			"programsOffered": ["French Language", "Science", "Social Studies"],
+			"accreditation": "International"
+		},
+		{
+			"id": "8",
+			"name": "Lycée Louis-le-Grand",
+			"establishmentYear": 1563,
+			"region": "Paris, France",
+			"studentCount": 1000,
+			"classrooms": 40,
+			"programsOffered": ["Mathematics", "Philosophy", "Physics"],
+			"accreditation": "National"
+		},
+		{
+			"id": "9",
+			"name": "High School of Shanghai",
+			"establishmentYear": 1865,
+			"region": "Shanghai, China",
+			"studentCount": 1200,
+			"classrooms": 45,
+			"programsOffered": ["Chemistry", "Literature", "Technology"],
+			"accreditation": "National"
+		},
+		{
+			"id": "10",
+			"name": "Sydney Boys High School",
+			"establishmentYear": 1883,
+			"region": "Sydney, Australia",
+			"studentCount": 900,
+			"classrooms": 35,
+			"programsOffered": ["Physics", "Economics", "Computer Science"],
+			"accreditation": "National"
+		},
+		{
+			"id": "11",
+			"name": "Beverley Hills High School",
+			"establishmentYear": 1962,
+			"region": "Los Angeles, USA",
+			"studentCount": 1000,
+			"classrooms": 50,
+			"programsOffered": ["Mathematics", "History", "Business Studies"],
+			"accreditation": "National"
+		},
+		{
+			"id": "12",
+			"name": "Lyceum of the Philippines University",
+			"establishmentYear": 1952,
+			"region": "Manila, Philippines",
+			"studentCount": 1100,
+			"classrooms": 38,
+			"programsOffered": ["Business", "Engineering", "Tourism"],
+			"accreditation": "National"
+		},
+		{
+			"id": "13",
+			"name": "Canadian International School",
+			"establishmentYear": 1986,
+			"region": "Toronto, Canada",
+			"studentCount": 850,
+			"classrooms": 30,
+			"programsOffered": ["Music", "Art", "Science"],
+			"accreditation": "International"
+		},
+		{
+			"id": "14",
+			"name": "International School of Geneva",
+			"establishmentYear": 1924,
+			"region": "Geneva, Switzerland",
+			"studentCount": 950,
+			"classrooms": 36,
+			"programsOffered": [
+				"Global Studies",
+				"Foreign Languages",
+				"Business Management"
+			],
+			"accreditation": "International"
+		},
+		{
+			"id": "15",
+			"name": "International School of Brussels",
+			"establishmentYear": 1963,
+			"region": "Brussels, Belgium",
+			"studentCount": 700,
+			"classrooms": 28,
+			"programsOffered": ["Languages", "Economics", "Geography"],
+			"accreditation": "International"
+		},
+		{
+			"id": "16",
+			"name": "St. Petersburg Academic Gymnasium",
+			"establishmentYear": 1805,
+			"region": "St. Petersburg, Russia",
+			"studentCount": 950,
+			"classrooms": 32,
+			"programsOffered": ["Russian Literature", "Physics", "Mathematics"],
+			"accreditation": "National"
+		},
+		{
+			"id": "17",
+			"name": "The American School of Dubai",
+			"establishmentYear": 1966,
+			"region": "Dubai, UAE",
+			"studentCount": 1200,
+			"classrooms": 50,
+			"programsOffered": [
+				"English Literature",
+				"Business Studies",
+				"Chemistry"
+			],
+			"accreditation": "International"
+		},
+		{
+			"id": "18",
+			"name": "The International School of Kuala Lumpur",
+			"establishmentYear": 1965,
+			"region": "Kuala Lumpur, Malaysia",
+			"studentCount": 1100,
+			"classrooms": 40,
+			"programsOffered": ["Science", "Technology", "Social Studies"],
+			"accreditation": "International"
+		},
+		{
+			"id": "20",
+			"name": "Munich International School",
+			"establishmentYear": 1966,
+			"region": "Munich, Germany",
+			"studentCount": 950,
+			"classrooms": 35,
+			"programsOffered": [
+				"German Language",
+				"Mathematics",
+				"Environmental Science"
+			],
+			"accreditation": "International"
+		}
+	],
+	"high-schools": [
+		{
+			"id": "1",
+			"name": "Harvard-Westlake School",
+			"establishmentYear": 1900,
+			"region": "Los Angeles, USA",
+			"studentCount": 1200,
+			"classrooms": 45,
+			"specialization": "STEM, Arts",
+			"accreditation": "National"
+		},
+		{
+			"id": "2",
+			"name": "The Lawrenceville School",
+			"establishmentYear": 1810,
+			"region": "Lawrenceville, USA",
+			"studentCount": 900,
+			"classrooms": 40,
+			"specialization": "Science, Humanities",
+			"accreditation": "National"
+		},
+		{
+			"id": "3",
+			"name": "Eton College",
+			"establishmentYear": 1440,
+			"region": "Windsor, UK",
+			"studentCount": 1300,
+			"classrooms": 50,
+			"specialization": "Literature, History",
+			"accreditation": "International"
+		},
+		{
+			"id": "4",
+			"name": "The Hotchkiss School",
+			"establishmentYear": 1891,
+			"region": "Lakeville, USA",
+			"studentCount": 800,
+			"classrooms": 35,
+			"specialization": "STEM, Performing Arts",
+			"accreditation": "National"
+		},
+		{
+			"id": "5",
+			"name": "Phillips Exeter Academy",
+			"establishmentYear": 1781,
+			"region": "Exeter, USA",
+			"studentCount": 1100,
+			"classrooms": 42,
+			"specialization": "Humanities, Sciences",
+			"accreditation": "National"
+		},
+		{
+			"id": "6",
+			"name": "United World College of South East Asia",
+			"establishmentYear": 1971,
+			"region": "Singapore",
+			"studentCount": 2000,
+			"classrooms": 60,
+			"specialization": "Global Studies, Arts",
+			"accreditation": "International"
+		},
+		{
+			"id": "7",
+			"name": "The American School in London",
+			"establishmentYear": 1951,
+			"region": "London, UK",
+			"studentCount": 1000,
+			"classrooms": 50,
+			"specialization": "English Literature, Business",
+			"accreditation": "International"
+		},
+		{
+			"id": "8",
+			"name": "The British School in Tokyo",
+			"establishmentYear": 1989,
+			"region": "Tokyo, Japan",
+			"studentCount": 1200,
+			"classrooms": 55,
+			"specialization": "Technology, Humanities",
+			"accreditation": "International"
+		},
+		{
+			"id": "9",
+			"name": "St. Paul's School",
+			"establishmentYear": 1856,
+			"region": "Concord, USA",
+			"studentCount": 950,
+			"classrooms": 40,
+			"specialization": "STEM, Humanities",
+			"accreditation": "National"
+		},
+		{
+			"id": "10",
+			"name": "Lycée Louis-le-Grand",
+			"establishmentYear": 1563,
+			"region": "Paris, France",
+			"studentCount": 800,
+			"classrooms": 35,
+			"specialization": "Philosophy, Mathematics",
+			"accreditation": "National"
+		},
+		{
+			"id": "11",
+			"name": "Singapore American School",
+			"establishmentYear": 1956,
+			"region": "Singapore",
+			"studentCount": 3500,
+			"classrooms": 100,
+			"specialization": "STEM, Global Studies",
+			"accreditation": "International"
+		},
+		{
+			"id": "12",
+			"name": "The International School of Beijing",
+			"establishmentYear": 1964,
+			"region": "Beijing, China",
+			"studentCount": 1100,
+			"classrooms": 45,
+			"specialization": "Language Arts, Science",
+			"accreditation": "International"
+		},
+		{
+			"id": "13",
+			"name": "King's College School",
+			"establishmentYear": 1829,
+			"region": "London, UK",
+			"studentCount": 1200,
+			"classrooms": 50,
+			"specialization": "Mathematics, Arts",
+			"accreditation": "International"
+		},
+		{
+			"id": "14",
+			"name": "The Spence School",
+			"establishmentYear": 1892,
+			"region": "New York, USA",
+			"studentCount": 750,
+			"classrooms": 30,
+			"specialization": "Humanities, Science",
+			"accreditation": "National"
+		},
+		{
+			"id": "15",
+			"name": "The American School of Paris",
+			"establishmentYear": 1946,
+			"region": "Paris, France",
+			"studentCount": 900,
+			"classrooms": 40,
+			"specialization": "Languages, International Relations",
+			"accreditation": "International"
+		},
+		{
+			"id": "16",
+			"name": "International School of Geneva",
+			"establishmentYear": 1924,
+			"region": "Geneva, Switzerland",
+			"studentCount": 950,
+			"classrooms": 45,
+			"specialization": "Social Sciences, Languages",
+			"accreditation": "International"
+		},
+		{
+			"id": "17",
+			"name": "Raffles Institution",
+			"establishmentYear": 1823,
+			"region": "Singapore",
+			"studentCount": 1500,
+			"classrooms": 60,
+			"specialization": "Mathematics, Science",
+			"accreditation": "National"
+		},
+		{
+			"id": "18",
+			"name": "International School of Hong Kong",
+			"establishmentYear": 1967,
+			"region": "Hong Kong",
+			"studentCount": 1000,
+			"classrooms": 40,
+			"specialization": "Science, Arts",
+			"accreditation": "International"
+		},
+		{
+			"id": "19",
+			"name": "German International School of New York",
+			"establishmentYear": 1960,
+			"region": "New York, USA",
+			"studentCount": 800,
+			"classrooms": 35,
+			"specialization": "Language Studies, History",
+			"accreditation": "International"
+		}
+	]
 }

@@ -3,9 +3,9 @@ import { Button, Form, Input } from "antd";
 import { useEffect } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
+import { z } from "zod";
 import { useLoginMutation } from "../../store/services/authService";
 import type { User } from "../../store/services/authService";
-import { z } from "zod";
 
 const loginSchema = z.object({
 	email: z.string().min(1, "Email is required").email("Invalid email"),

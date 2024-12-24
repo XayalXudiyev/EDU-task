@@ -33,13 +33,13 @@ export const authApi = createApi({
 		login: builder.mutation<UserResponse, LoginRequest>({
 			query: (credentials) => ({
 				url: "users",
-				method: "GET", 
+				method: "GET",
 				params: {
 					email: credentials.email,
 					password: credentials.password,
 				},
 			}),
-			transformResponse: (response:any) => {
+			transformResponse: (response: any) => {
 				if (response.length > 0) {
 					return {
 						user: response[0],
@@ -47,7 +47,7 @@ export const authApi = createApi({
 					};
 				}
 				throw new Error("Invalid email or password");
-			}
+			},
 		}),
 	}),
 });

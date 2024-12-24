@@ -1,16 +1,16 @@
-import { useState } from "react";
 import {
 	MenuFoldOutlined,
 	MenuUnfoldOutlined,
 	UserOutlined,
 } from "@ant-design/icons";
+import { useState } from "react";
 import { FaUniversity } from "react-icons/fa";
 import { FaSchool } from "react-icons/fa6";
 import { IoSchool } from "react-icons/io5";
 
-import { Avatar, Button, Col, Layout, Menu, theme, Typography } from "antd";
-import { NavLink, Outlet } from "react-router-dom";
+import { Avatar, Button, Col, Layout, Menu, Typography, theme } from "antd";
 import { AiOutlineLogout } from "react-icons/ai";
+import { NavLink, Outlet } from "react-router-dom";
 
 const { Header, Sider, Content } = Layout;
 const { Text } = Typography;
@@ -126,9 +126,7 @@ const MainLayout: React.FC = () => {
 						>
 							<Text>USER</Text>
 						</Col>
-						<Button
-							className="p-0 bg-transparent border-0 shadow-none outline-none"
-						>
+						<Button className="p-0 bg-transparent border-0 shadow-none outline-none">
 							<AiOutlineLogout size={20} />
 						</Button>
 					</Col>

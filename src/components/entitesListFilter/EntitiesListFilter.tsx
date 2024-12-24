@@ -1,7 +1,7 @@
+import { Button, Checkbox, Input, Select } from "antd";
 import { useEffect, useState } from "react";
-import { Input, Checkbox, Select, Button } from "antd";
-import type { EntityFilter } from "../FilterComponent";
 import { useDebouncedCallback } from "use-debounce";
+import type { EntityFilter } from "../FilterComponent";
 
 const { Option } = Select;
 
@@ -85,13 +85,23 @@ const ProductListFilter = ({
 						onChange={(e) => handleInputChange("campusSize", e.target.value)}
 					/>
 				)}
-
 				{filterFields.includes("scholarshipsAvailable") && (
 					<Checkbox
-						checked={filters.scholarshipsAvailable}
-						onChange={(e) =>
-							handleInputChange("scholarshipsAvailable", e.target.checked)
-						}
+						checked={filters.scholarshipsAvailable || false}
+						onChange={(e) => {
+							const value = e.target.checked;
+							if (value) {
+								setFilters((prevFilters) => ({
+									...prevFilters,
+									scholarshipsAvailable: true,
+								}));
+							} else {
+								setFilters((prevFilters) => {
+									const { scholarshipsAvailable, ...rest } = prevFilters;
+									return rest;
+								});
+							}
+						}}
 					>
 						Scholarships Available
 					</Checkbox>
@@ -99,10 +109,21 @@ const ProductListFilter = ({
 
 				{filterFields.includes("onlinePrograms") && (
 					<Checkbox
-						checked={filters.onlinePrograms}
-						onChange={(e) =>
-							handleInputChange("onlinePrograms", e.target.checked)
-						}
+						checked={filters.onlinePrograms || false}
+						onChange={(e) => {
+							const value = e.target.checked;
+							if (value) {
+								setFilters((prevFilters) => ({
+									...prevFilters,
+									onlinePrograms: true,
+								}));
+							} else {
+								setFilters((prevFilters) => {
+									const { onlinePrograms, ...rest } = prevFilters;
+									return rest;
+								});
+							}
+						}}
 					>
 						Online Programs Available
 					</Checkbox>

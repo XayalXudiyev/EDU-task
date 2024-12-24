@@ -1,10 +1,10 @@
-import { useGetAllSchoolsQuery } from "../../store/services";
 import { Table } from "antd";
-import { schoolColumns } from "../../constants";
 import { useState } from "react";
-import ProductListFilter from "../../components/entitesListFilter/EntitiesListFilter";
 import FilterComponent from "../../components/FilterComponent";
 import type { EntityFilter } from "../../components/FilterComponent";
+import ProductListFilter from "../../components/entitesListFilter/EntitiesListFilter";
+import { schoolColumns } from "../../constants";
+import { useGetAllSchoolsQuery } from "../../store/services";
 import type { ISchool } from "../../types";
 
 const Schools: React.FC = () => {
@@ -24,13 +24,13 @@ const Schools: React.FC = () => {
 			studentCount: school.studentCount || 0,
 			classrooms: school.classrooms || 0,
 			programsOffered: school.programsOffered || [],
-			key: school.id.toString(), 
+			key: school.id.toString(),
 		})) || [];
 
 	return (
 		<div>
 			<ProductListFilter
-				onChange={(updatedFilters) => setFilters(updatedFilters)} 
+				onChange={(updatedFilters) => setFilters(updatedFilters)}
 				filterFields={[
 					"name",
 					"region",
@@ -45,7 +45,7 @@ const Schools: React.FC = () => {
 				size="middle"
 				columns={schoolColumns}
 				dataSource={schoolDataSource}
-				rowKey="id" 
+				rowKey="id"
 			/>
 		</div>
 	);

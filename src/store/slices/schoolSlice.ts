@@ -11,19 +11,19 @@ export const schoolSlice = createSlice({
 	initialState,
 	reducers: {},
 	extraReducers: (builder) => {
-    builder.addMatcher(
-      schoolsApi.endpoints.getAllSchools.matchFulfilled,
+		builder.addMatcher(
+			schoolsApi.endpoints.getAllSchools.matchFulfilled,
 			(state, action) => {
-        state.schoolsItems = action.payload;
+				state.schoolsItems = action.payload;
 			},
 		);
-    builder.addMatcher(
-      schoolsApi.endpoints.deleteSchool.matchFulfilled,
-      (state, action) => {
-        console.log(state);
-        console.log(action)
-      },
-    );
+		builder.addMatcher(
+			schoolsApi.endpoints.deleteSchool.matchFulfilled,
+			(state, action) => {
+				console.log(state);
+				console.log(action);
+			},
+		);
 	},
 });
 
